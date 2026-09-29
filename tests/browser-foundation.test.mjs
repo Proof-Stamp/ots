@@ -25,7 +25,7 @@ test('browser UI keeps direct file timestamping local and pending semantics expl
 })
 
 test('create flow uses plain wording and visible timestamp progress', () => {
-  assert.match(index, />Check file</)
+  assert.match(index, />Prepare ProofStamp</)
   assert.match(index, /Ready to timestamp/)
   assert.match(index, /Nothing sent yet/)
   assert.match(index, /Two independent SHA-256 checks match/)
